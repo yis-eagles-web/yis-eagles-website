@@ -1,0 +1,264 @@
+/* General Reset */
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f5f5f5;
+}
+
+.logo {
+    padding: 5px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+.search {
+    margin-left: 20px;
+}
+
+.search input {
+    padding: 5px 10px;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+
+
+/* Carousel Styles */
+
+.carousel {
+    width: 100%;
+    height: 400px;
+    /* Adjust height as needed */
+    overflow: hidden;
+    position: relative;
+}
+
+.carousel-slides {
+    display: flex;
+    /* Smooth slide transition */
+    width: 400%;
+    /* Set to number of slides * 100% */
+}
+
+.slide {
+    width: 100%;
+    flex-shrink: 0;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.indicators {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+}
+
+.indicator {
+    width: 15px;
+    height: 15px;
+    background-color: #999;
+    border: none;
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.indicator.active {
+    background-color: #fff;
+}
+
+.mission-section {
+    background-color: #d3d3d3;
+    /* Light grey background */
+    padding: 30px 20px;
+    text-align: center;
+}
+
+.mission-text {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 30px;
+    color: #000;
+    /* Black text */
+}
+
+.essentials {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.essential {
+    background-color: white;
+    width: 22%;
+    padding: 20px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+.essential h2 {
+    font-size: 48px;
+    color: rgba(0, 0, 0, 0.2);
+    /* Light grey number */
+    margin: 0;
+}
+
+.essential p {
+    margin: 10px 0 0;
+    font-size: 16px;
+    color: #8b0000;
+    /* Dark red text */
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+.mission-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+/* News Section */
+
+.news-section {
+    background-color: #f5f5f5;
+    /* Light grey background */
+    padding: 40px 20px;
+}
+
+.news-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.news-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.news-header h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #000;
+    /* Black text */
+}
+
+.show-all-news {
+    background-color: #8b0000;
+    /* Dark red button */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.show-all-news:hover {
+    background-color: #a52a2a;
+    /* Slightly lighter red */
+}
+
+.news-cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.news-card {
+    background-color: white;
+    width: 30%;
+    min-width: 280px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.news-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+.news-image {
+    background-color: #d3d3d3;
+    /* Placeholder grey */
+    color: #000;
+    /* Black text */
+    font-style: italic;
+    text-align: center;
+    line-height: 200px;
+    /* Adjust to match card height */
+    font-size: 18px;
+    height: 200px;
+}
+
+
+/* Color Bar */
+
+.color-bar {
+    display: flex;
+    height: 20px;
+    /* Adjust height as needed */
+}
+
+.color {
+    flex: 1;
+    /* Equal width for all squares */
+}
+
+.color.blue {
+    background-color: #4a90e2;
+    /* Blue color */
+}
+
+.color.red {
+    background-color: #8b0000;
+    /* Red color */
+}
+
+.color.yellow {
+    background-color: #f9a825;
+    /* Yellow color */
+}
+
+.color.grey {
+    background-color: #d3d3d3;
+    /* Grey color */
+}
