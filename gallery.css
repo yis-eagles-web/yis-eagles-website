@@ -57,7 +57,7 @@ nav ul li a {
 
 .grid-container {
     display: grid;
-    gap: 150px;
+    gap: 50px;
     max-width: 1200px;
     margin: 0 auto;
     grid-template-columns: repeat(3, 1fr); /* Two images per row */
