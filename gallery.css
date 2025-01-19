@@ -59,7 +59,6 @@ nav ul li a {
     display: grid;
     gap: 50px;
     max-width: 900px;
-    margin: 0 auto;
     grid-template-columns: repeat(auto-fit, minmax(2, 1fr)); /* Adjust as needed */
     gap: 20px;
 }
@@ -68,7 +67,6 @@ nav ul li a {
     background-color: #d3d3d3;
     height: 300px;
     width: 500px;
-    align-items: center;
     font-style: italic;
     font-size: 18px;
     color: black;
