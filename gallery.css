@@ -68,9 +68,7 @@ nav ul li a {
     background-color: #d3d3d3;
     height: 300px;
     width: 500px;
-    display: flex;
     align-items: center;
-    justify-content: center;
     font-style: italic;
     font-size: 18px;
     color: black;
