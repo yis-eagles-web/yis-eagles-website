@@ -66,8 +66,8 @@ nav ul li a {
 /* Grid Items */
 .grid-item {
     background-color: #d3d3d3;
-    width: 220px; /* Fixed width */
-    height: 450px; /* Fixed height */
+    width: 230px; /* Fixed width */
+    height: 470px; /* Fixed height */
     display: flex;
     align-items: center;
     justify-content: center;
