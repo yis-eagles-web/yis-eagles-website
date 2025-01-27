@@ -1,0 +1,165 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+
+/* Header */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f5f5f5;
+}
+
+.logo {
+    padding: 5px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.search input {
+    padding: 5px 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+
+/* Color Bar */
+
+.color-bar {
+    display: flex;
+    height: 20px;
+    /* Adjust height as needed */
+}
+
+.color {
+    flex: 1;
+    /* Equal width for all squares */
+}
+
+.color.blue {
+    background-color: #4a90e2;
+    /* Blue color */
+}
+
+.color.red {
+    background-color: #8b0000;
+    /* Red color */
+}
+
+.color.yellow {
+    background-color: #f9a825;
+    /* Yellow color */
+}
+
+.color.grey {
+    background-color: #d3d3d3;
+    /* Grey color */
+}
+
+.header {
+    margin: 20px 0;
+    font-size: 48px;
+    justify-content: center;
+    align-items: center;
+}
+
+.header img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* Main Content */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.eslr-large {
+    width: 100%;
+    max-width: 1200px;
+    height: 600px;
+    background-color: lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-right: 100px;
+    overflow: hidden;
+    margin: 20px auto;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.eslr-large img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* Ensures images fill the space without distortion */
+    border-radius: 8px;
+}
+
+.p {
+    max-width: 800px;
+    text-align: center;
+    margin-bottom: 30px;
+    padding: 20px;
+    font-size: 18px;
+    color: #333;
+    line-height: 3;
+    margin: 20 20px;
+}
+
+.right {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    margin: 20px auto;
+    gap: 15px;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.eslr-small {
+    background-color: lightgray;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    color: #555;
+    overflow: hidden;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.eslr-small img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* Ensures images fill the space without distortion */
+    border-radius: 8px;
+}
