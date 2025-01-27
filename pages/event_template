@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+//Website Title//
+    <title>Title</title>
+//Website Title//
+    <link rel="stylesheet" href="ymun.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo"><img src="https://www.yismyanmar.com/dev/wp-content/uploads/2020/02/cropped-yis-icon.png" style="width: 60px; height: 60px;"></div>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../athletics.html">Athletics</a></li>
+                <li><a href="../activities.html">Activities</a></li>
+                <li><a href="../team.html">Team</a></li>
+                <li><a href="../gallery.html">Gallery</a></li>
+            </ul>
+            <br>
+            <div class="search">
+                <input type="text" placeholder="Search">
+            </div>
+        </nav>
+    </header>
+
+     <div class="color-bar">
+        <div class="color blue"></div>
+        <div class="color red"></div>
+        <div class="color yellow"></div>
+        <div class="color grey"></div>
+    </div>
+
+    <main>
+        <div class="content">
+            <header style="font-size: 48px;  justify-content: center; align-items: center; margin: 10px;"><b>Title</b></header>
+            <div class="left">
+                <div class="eslr-large"><img src='../images/mun/Image.png'></div>
+                <p class="main" style="line-height:2; margin: 50px;">Paragraph
+                </p>
+                <p class="main" style="line-height:2; margin: 50px;">Paragraph
+                </p>
+                <p class="main" style="line-height:2; margin: 50px;">Paragraph
+                </p>
+            </div>
+            <div class="right">
+                <div class="eslr-small"><img src='../images/mun/Image (1).png'></div>
+                <div class="eslr-small"><img src='../images/mun/Image (2).png'></div>
+                <div class="eslr-small"><img src='../images/mun/Image (3).png'></div>
+                <div class="eslr-small"><img src='../images/mun/Image (4).png'></div>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
